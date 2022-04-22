@@ -3,7 +3,7 @@
 A group project for module BT5153, designed to predict your MBTI personality based on your posts in the forum.
 
 ## Data
-The dataset is from [Kaggle](https://www.kaggle.com/datasets/datasnaek/mbti-type).
+The dataset mbti_1.csv is from [Kaggle](https://www.kaggle.com/datasets/datasnaek/mbti-type).
 
 ## Models
 We first trained multi-class classifier for 16 types of personalities, then trained binary classifier for 4 dimentions to find the best model.
