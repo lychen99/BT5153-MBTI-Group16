@@ -7,10 +7,10 @@ The dataset mbti_1.csv is from [Kaggle](https://www.kaggle.com/datasets/datasnae
 
 ## Models
 We first trained multi-class classifier for 16 types of personalities, then trained binary classifier for 4 dimentions to find the best model.
-### Multi-Class Classifier
+### Method1: Multi-Class Classifier
 For multi-class classifier, we explored various models for three types of preprocessing: clean texts with stopwords, TF-IDF and Doc2Vec.
 
 The code for Bert and CNN models is in [BERT&CNN.ipynb](./BERT&CNN.ipynb)
 
 
-### Binary Classifier
+### Method2: Binary Classifier
