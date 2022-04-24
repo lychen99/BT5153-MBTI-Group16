@@ -6,7 +6,7 @@ A group project for module BT5153, designed to predict your MBTI personality bas
 The dataset mbti_1.csv is from [Kaggle](https://www.kaggle.com/datasets/datasnaek/mbti-type).
 
 ## Models
-We first trained multi-class classifier for 16 types of personalities, then trained binary classifier for 4 dimentions to find the best model.
+We first trained multi-class classifier for 16 types of personalities, then trained binary classifier for 4 dimentions to find the best model. The data preprocessing and EDA parts are included in the codes of models.
 ### Method1: Multi-Class Classifier
 For multi-class classifier, we explored various models for three types of preprocessing: clean texts with stopwords, TF-IDF and Doc2Vec.
 
