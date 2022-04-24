@@ -11,7 +11,9 @@ We first trained multi-class classifier for 16 types of personalities, then trai
 For multi-class classifier, we explored various models for three types of preprocessing: clean texts with stopwords, TF-IDF and Doc2Vec.
 
 The code for Bert and CNN models is in [Method1_BERT&CNN.ipynb](./Method1_BERT&CNN.ipynb)
+
 The code for models trained on TF-IDF is in [Method1_tfidf.ipynb](./Method1_tfidf.ipynb)
+
 The code for models trained on Doc2Vec is in [Method1_doc2vec.ipynb](./Method1_doc2vec.ipynb)
 
 ### Method2: Binary Classifier
